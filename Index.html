@@ -1,0 +1,159 @@
+<html>
+<head>
+<style type="text/css">
+
+
+a:link,    a:visited {text-decoration: none  ;  }
+a:hover,  a:active   { text-decoration:none  color:red; background-color:#000000; }
+
+
+</style>
+<style>
+
+p{margin-left: 10%;}
+</style>
+<style type="text/css">
+
+
+
+ol{
+counter-reset:lista;
+margin-left:0;
+padding-left:0;
+
+}
+ 
+ol > li {
+list-style:none;
+position:relative;
+margin: 0 0 10px 20px;
+padding: 4px 8px;
+}
+ol > li:before{
+
+ border-radius: 50%;
+position:absolute;
+content:counter(lista);
+counter-increment:lista;
+position:relative;
+top:0px;
+left:-25px;
+width:50px;
+padding:2px;
+color:#00ffff;
+background-color:#000000;
+font-weight:bold;
+text-align:center;
+font-size:30px;
+
+
+}
+
+</style>
+<style>
+ol.circles-list {
+    list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+     
+    margin: 0;
+    margin-left: 4em;
+    padding: 0;
+     
+    counter-reset: li-counter;
+}
+ol.circles-list > li{
+    position: relative;
+    margin-bottom: 50px;
+    padding-left: 0.5em;
+    min-height: 3em;
+}
+ol.circles-list > li:before {
+    position: absolute;
+    top: 0;
+    left: -1.33em;
+    width: 2.2em;
+    height: 2.2em;
+     
+    font-size: 2.5em;
+    line-height: 1.2;
+    text-align: center;
+    color: #f5f5f5;
+ font-size:30px;
+    border: 6px solid #000000;
+    border-radius: 50%;
+    background-color: #000000;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+</style>
+<style>
+div#footer{position:absolute;bottom: 0;width: 100%}
+</style>
+<style>
+* {margin: 0; padding: 0; }
+
+.banda { width: 100%; }
+#banda1 { background: #000000; }
+
+.wrapper { width: 750px; padding: 1.5em 0; margin: 0 auto; }
+</style>
+
+<title> Index </title>
+</head>
+<body bgcolor="#1E90FF">
+<div align="center"> <font color="#ffffffff" size=9 face="Purisa"> <b> Welcome </b>   </font> </div>
+  <div align="center"><font color="#ffffffff" size=6 face="Purisa"> <b> To </b>  </font> </div>
+<div align="center"><font color="#ffffffff" size=9 face="Purisa">  <b> Seven World's Wonders Server </b>  </font> </div>
+<div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p > <font   color="#ffffff" size=6> <i> Select one of these links to see the picture: </i></font>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<table>
+<tr><td width=25%>
+</td>
+<td>
+
+<ol >
+<li><a href="Pictures/Colosseum.jpg" > <font color="#ffffffff" size=5> Colosseum </a> (Italy) </font> </li> 
+<li><a href="Pictures/Machu_Picchu.jpg" > <font color="#ffffffff" size=5> Machu Picchu </a>  (Peru) </font> </li>
+<li> <a href="Pictures/Petra.jpg" > <font color="#ffffffff" size=5> Petra </a> (Jordan) </font>  </li>
+<li> <a href="Pictures/Christ_the_Redeemer.jpg" > <font color="#ffffffff" size=5> Christ the Redeemer </a> (Brasil) </font> </li>
+<li> <a href="Pictures/Chichen_Itza.jpg" > <font color="#ffffffff" size=5> Chichén Itzá </a> (Mexico) </font> </li>
+<li> <a href="Pictures/Taj_Mahal.jpg" > <font color="#ffffffff" size=5> Taj Mahal </a> (India) </font>  </li>
+<li><a href="Pictures/Great_Wall_of_China.jpg" > <font color="#ffffffff"size=5> Great Wall of China </a> (China) </font>  </li>
+ </ol>
+
+</td>
+<td width=25%>
+</td>
+</tr>
+</table>
+<br>
+<br>
+<br>
+</div>
+<div class="footer">
+<div id="banda1" class="banda">
+
+<br>
+<p align="center"> <font color="#00FFFF" size=2> SWWS </p> 
+ <p align="center">  Giovanni D'Agostino  -  Marco Giorgi  -  Lorenzo Paris &copy </font> </p> 
+<br>
+
+
+</div>
+</div>
+</body>
+
+
+</html>
